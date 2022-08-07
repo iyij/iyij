@@ -6,6 +6,7 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   position: relative;
+  background-color: rgb(0,0,0,0.1);
   /* direction: ltr; */
 }
 
@@ -88,8 +89,9 @@ header .sub-ul a {
 }
 
 header>ul>li:hover {
-  background-color: rgb(13, 235, 243);
-  border-radius: 40%;
+  background-color: rgb(214, 161, 61);
+  /* background-color: rgb(13, 235, 243);
+  border-radius: 40%; */
 }
 
 .sub-ul>li:hover {
@@ -197,20 +199,6 @@ footer ul li:hover {
 
 }
 
-.map img {
-  margin-top: 0px;
-  margin-right: 50px;
-  margin-left: 50px;
-  width: 25px;
-  background-color: orange;
-  border-radius: 10px;
-  direction: rtl;
-  transition: all 0.15s linear;
-}
-
-.map img:hover {
-  transform: rotateZ(-180deg) rotateY(10deg);
-}
 
 .map p {
   margin-right: 54px;
@@ -233,6 +221,9 @@ footer ul li:hover {
 
 }
 
+#production-title{
+  margin-top: 1%;
+}
 .all-description p {
   line-height: 2;
 }
@@ -292,7 +283,7 @@ footer ul li:hover {
 }
 
 .current {
-  background-color: rgb(35, 190, 35);
+  background-color: rgb(243, 164, 17);
   /* border-radius: 40% 20%; */
 }
 
@@ -312,7 +303,10 @@ footer ul li:hover {
 .sided-img {
   margin-top: 100px;
 }
-
+#second-img{
+  width: 70%;
+  margin:0 auto;
+}
 .all-description {
   align-items: center;
   margin-right: 20px;
@@ -323,12 +317,11 @@ footer ul li:hover {
   bottom: 0;
 }
 
-.border-ra {
-  border-radius: 40%;
-}
 
 #third-img {
-  margin-top: 25%;
+  padding-top: 10px;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .right-arrow {
@@ -347,7 +340,25 @@ footer ul li:hover {
   bottom: 0;
   position: fixed;
 }
-#production-footer{
+/* #production-footer{
   position: fixed;
   bottom: 0;
+} */
+
+.all-description h4{
+  color: blue;
+  margin-top: 4%;
+  margin-bottom: 1%;
+}
+.all-description ol{
+  list-style: none;
+}
+.all-description ol li{
+  padding: 10px;
+}
+#first-img{
+  margin-top: 100px;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
 }
